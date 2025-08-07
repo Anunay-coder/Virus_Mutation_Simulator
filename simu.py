@@ -159,3 +159,13 @@ if st.button("Run Simulation", help="Click to run the mutation simulation with t
                 st.text(f"Gen {i:02}: {g}")
 
     st.caption("Tip: Try increasing the mutation rate or generations to see how the precautions change!")
+
+ st.markdown("---")
+    st.markdown(
+        "<div style='text-align: center; color: gray;'>"
+        "Developed by <b>Anunay Das Bairagya</b> | "
+        "Email: <a href='mailto:anunaydasbairagya@gmail.com'>anunaydasbairagya@gmail.com</a> | "
+        "GitHub: <a href='https://github.com/Anunay-coder' target='_blank'>Anunay-coder</a> "
+        "</div>",
+        unsafe_allow_html=True
+    )
