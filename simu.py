@@ -160,7 +160,7 @@ if st.button("Run Simulation", help="Click to run the mutation simulation with t
 
     st.caption("Tip: Try increasing the mutation rate or generations to see how the precautions change!")
 
- st.markdown("---")
+    st.markdown("---")
     st.markdown(
         "<div style='text-align: center; color: gray;'>"
         "Developed by <b>Anunay Das Bairagya</b> | "
@@ -169,3 +169,4 @@ if st.button("Run Simulation", help="Click to run the mutation simulation with t
         "</div>",
         unsafe_allow_html=True
     )
+
